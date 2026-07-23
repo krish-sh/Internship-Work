@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #145374;
+        font-size: 64px;
+        text-decoration: none;
+      }
+      h1:hover {
+        text-decoration: underline;
+      }
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        justify-content: center;
+        gap: 120px;
+      }
+
+      .gallery img {
+        height: 600px;
+        width: 400px;
+        border: 3px solid black;
+        object-fit: cover;
+      }
+
+      .gallery img:hover {
+        border: 3px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Marvel Gallery</h1>
+      <div class="gallery">
+        <img src="CAmerica.jpg" alt="Captain America" />
+        <img src="hulk.jpg" alt="Hulk" />
+        <img src="IronMan.jpg" alt="Iron-Man" />
+        <img src="SpiderMan.jpg" alt="Spider Man" />
+        <img src="Thanos.jpg" alt="Thanos" />
+        <img src="Wolverine.jpg" alt="wolverine" />
+    </div>
+</div>
+<a
+  href="https://www.marvel.com/characters"
+  style="padding: 20px; font-size: 32px;"
+>
+  Click to open more images</a
+>
+  </body>
+</html>
